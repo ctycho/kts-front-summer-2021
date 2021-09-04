@@ -13,7 +13,6 @@ export type GitHubRepoOwner = {
     url: string,
     avatar_url: string,
     login: string,
-    stargazers_count: number,
 }
 
 export type RepoItem = {
@@ -21,6 +20,8 @@ export type RepoItem = {
     url: string,
     name: string,
     owner: GitHubRepoOwner,
+    stargazers_count: number,
+    updated_at: string,
 }
 
 export type GetOrganizationReposListParams = {

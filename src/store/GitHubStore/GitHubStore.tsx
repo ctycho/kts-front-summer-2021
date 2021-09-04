@@ -16,7 +16,7 @@ export default class GitHubStore implements IGitHubStore {
         return await this.apiStore.request({
             method: HTTPMethod.GET,
             headers: {
-                // Accept: "application/vnd.github.v3+json"
+                Accept: "application/vnd.github.v3+json"
             },
             data: {},
             endpoint: `/orgs/${params.organizationName}/repos`,
