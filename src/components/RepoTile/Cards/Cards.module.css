@@ -14,27 +14,6 @@
     align-items: center;
 }
 
-.kek {
-    position: relative;
-    width: 80px;
-    height: 80px;
-    background-color: #FF5555;
-    border-radius: 50%;
-    margin-right: 10px;
-    margin-left: 20px;
-}
-
-
-.user_ava {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-}
-
 .content_name_info > div {
     display: flex;
     margin-bottom: 2px;
@@ -56,12 +35,8 @@
     color: #7E7E7E;
 }
 
-.content_info div {
-    /*flex-direction: row;*/
-}
-
-.star {
-    vertical-align: center;
+.content_info {
+    align-items: center;
 }
 
 .stars_total {

@@ -1,0 +1,9 @@
+
+.search_grid {
+    display: grid;
+    grid-template-columns: 295px 50px;
+    grid-column-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
